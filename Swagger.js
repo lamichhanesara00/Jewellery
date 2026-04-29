@@ -16,16 +16,14 @@ const options = {
       version: "1.0.0",
       description: "API documentation for jewellery - jewellery inventory",
     },
-    servers: [
-      {
-        url: "https://jewellery-6pdr.onrender.com/api",
-        description: "Render server",
-      },
-    
+    servers: [    
       {
         url: "http://localhost:3000/api",
         description: "Development server",
       },
+   {   
+        url: "https://jewellery-6pdr.onrender.com/api",
+        description: "Development server",}
     ],
     components: {
       securitySchemes: {
